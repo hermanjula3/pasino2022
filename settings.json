@@ -1,0 +1,46 @@
+{
+ "Account": {
+  "username": "xxx",
+  "password": "xxx",
+  "Currency": "btt"
+ },
+ "Target Profit": "100000",
+ "Target Win": "100000",
+ "Lose Target": "0",
+ "Save Profit": "0",
+ "Reset Seed": "100",
+ "Show Price": "OFF",
+ "Play Game": "dice",
+ "Betset": [
+  {
+   "Name Bet Set": "00 - @BEDUCODE SETTING",
+   "Base Bet": "0.0001",
+   "Chance": "98",
+   "Random Chance": {
+    "Toggle": "ON",
+    "Min": "95",
+    "Max": "98"
+   },
+   "Bet": {
+    "Bet": "Low",
+    "Hi / Low": {
+     "Toggle": "OFF",
+     "If Lose": "4",
+     "If Win": "4"
+    }
+   },
+   "Mode1": {
+    "Toggle": "ON",
+    "Profit": "0.00000001",
+    "Multi Win": {
+     "LCMin": "30",
+     "LCMax": "30"
+    },
+    "Multi Lose": {
+     "LCMin": "1",
+     "LCMax": "1"
+    }
+   }
+  }
+ ]
+}
